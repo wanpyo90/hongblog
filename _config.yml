@@ -1,21 +1,21 @@
-title:            SLH blog
-description:      blabla
-disqus_shortname: slh
+title:            Wanpyo blog
+description:      self make
+disqus_shortname: wanpyo
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://geoncheollee.github.io/geonblog
+url:              http://wanpyo90.github.io/hongblog/
 
 # Owner/author information
 owner:
-  name:           SLH
+  name:           wanpyo
   avatar:         avatar.jpg
-  bio:            "SLH include a biggest mean. 'S' is SeoJangWon, 'L' is Leegeonchul, 'H' is Hongwanpyo . this three developer start up drawing a small sketch with huge landscape. this three be greatest man"
-  email:          you@email.com
+  bio:            "한국기술교육대학교 컴퓨터공학부에 재학중인 홍완표입니다. 현재 IT에 많은 관심을 가지고 열심히 공부중입니다."
+  email:          wanpyo90@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         geoncheollee
+  github:         wanpyo90
   stackexchange:  
   linkedin:       
   instagram:      
