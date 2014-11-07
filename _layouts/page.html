@@ -3,9 +3,14 @@
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+
 <head>
 {% include head.html %}
+
 </head>
+
+
 
 <body id="page" {% if page.image.feature %}class="feature"{% endif %}>
 
@@ -13,6 +18,15 @@
 {% include navigation.html %}
 
 {% if page.image.feature %}
+
+<!-- 버튼(건철)
+    body의 id인 page 참조하여 이동-->
+<div style="position: fixed; bottom: 15px; right: 15px;">
+  <a href="#page"><img src="{{ site.url }}/images/top.png" title="top"></a> 
+</div>
+
+
+
 <div class="entry-header">
   {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   <div class="entry-image">
@@ -21,20 +35,20 @@
 </div><!-- /.entry-header -->
 {% endif %}
 
+
+
 <div id="main" role="main">
   <article class="entry">
     <header class="header-title">
       <div class="header-title-wrap">
         <h1 class="entry-title">{{ page.title }}</h1>
-        {% if site.reading_time %}
-        <p class="entry-reading-time">
-          <i class="fa fa-clock-o"></i>
-          {% assign readtime = content | number_of_words | divided_by:site.words_per_minute %}
-          Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-        </p><!-- /.entry-reading-time -->
-        {% endif %}
+
+
+
       </div><!-- /.header-title-wrap -->
     </header>
+    
+ 
     <div class="entry-content">
       {{ content }}
       <footer class="entry-meta">
