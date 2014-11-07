@@ -12,10 +12,6 @@
 					<p>{{ site.owner.bio }}</p>
 				</li>
 				<li><a href="{{ site.url }}/about/">Learn More</a></li>
-	
-				{% if site.owner.github %}<li>
-					<a href="http://github.com/{{ site.owner.github }}"><i class="fa fa-github"></i> GitHub</a>
-				</li>{% endif %}
 				{% if site.owner.stackexchange %}<li>
 					<a href="{{ site.owner.stackexchange }}"><i class="fa fa-stack-exchange"></i> Stackexchange</a>
 				</li>{% endif %}
@@ -37,13 +33,35 @@
 			</ul>
 		</li>
 		<li>
-			<a href="#">Courses</a>
+			<a href="#">Python</a>
 			<ul class="dl-submenu">
 				<li><a href="{{ site.url }}/python_intro/">Python 학습 개요</a></li>
 				<li><a href="{{ site.url }}/tip/">Python 학습 Tip</a></li>
 				<li><a href="{{ site.url }}/lecture_1/">수치 자료형과 연산자</a></li>
 				<li><a href="{{ site.url }}/lecture_2/">문자열</a></li>
 				<li><a href="{{ site.url }}/lecture_3/">리스트</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">특강</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url }}/web1/"></a>웹특강_HTML5&Javascript</li>
+				<li><a href="{{ site.url }}/opic1/"></a>Opic</li>
+				
+			</ul>
+		</li>
+		<li>
+			<a href="#">오픈소스</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url }}/special_lec1/"></a>삼성전자_오픈소스의 이해와 활용</li>
+
+			</ul>
+		</li>
+		<li>
+			<a href="#">보안</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url }}/secure_webshell/"></a>Web_Shell</li>
+
 			</ul>
 		</li>
 		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
