@@ -116,3 +116,43 @@ function func(){
 
 
 <!-- 사지선다형 문제 끝 -->
+
+
+<!-- md 파일 하나 생성시 필수요소 -->
+---
+layout: page
+permalink: /lecture_1/
+<!-- title: 수치 자료형과 연산자 -->
+description: "수치 자료형과 연산자 소개 및 예제"
+tags: [Jekyll, theme, install, setup]
+image:
+  feature: lecture_3_logo.jpg
+
+share: true
+---
+
+<html>
+	<body>
+	
+	
+
+		<div style="background-image: URL({{ site.url }}/images/list2.png); height: 410px; width: 200px; border: 2px solid black; position: fixed; top: 35px; right: 35px;">
+  			<br><a href="#01" style="color: white"> &nbsp;01.수치 자료형 </a> <br>
+  			<a href="#1-1" style="color: white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-1 정수형 상수 </a> <br>
+  			<a href="#1-2" style="color: white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-2 실수형 상수 </a> <br>
+  			<a href="#1-3" style="color: white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-3 Decimal 자료형 </a> <br><br>
+  			<a href="#02" style="color: white"> &nbsp;02 파이썬 연산자 </a> <br>
+  			<a href="#2-1" style="color: white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-1 산술 연산자 </a> <br>
+  			<a href="#2-2" style="color: white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-2 관계 연산자 </a> <br>
+  			<a href="#2-3" style="color: white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-3 논리 연산자 </a> <br>
+  			<a href="#2-4" style="color: white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-4 비트 단위 연산자 </a> <br><br>
+  			<a href="#problem" style="color: white"> &nbsp; 연습문제 </a> <br>
+  			<a href="#coding" style="color: white"> &nbsp; 코딩 실습 </a> <br>
+  			<a href="#forum" style="color: white"> &nbsp; Forum </a> <br>
+		</div>
+		
+	</body>
+</html>
+
+<div id="1-1"></div>
+
