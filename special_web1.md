@@ -2,7 +2,7 @@
 layout: page
 permalink: /web1/
 title: Web강의
-description: ""
+description: "web special lecture"
 tags: [Jekyll, theme, install, setup]
 image:
   feature: abstract-12
