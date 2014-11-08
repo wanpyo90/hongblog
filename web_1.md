@@ -174,14 +174,17 @@ but) 자바스크립트 = 데이터 타입 일치X, 사이즈 제한 X
 
 - 웹스톰 사용법 -
 * 모두 디폴드값으로 실행까지 전개.
-* 1. create new project로 만들되 name은 공백없이 영어로 작성
-* 2. '액세스 허용'선택
-* 3. new -> HTML file -> name설정
-* 4. 서체수정 -> file -> setting -> color & fonts -> save as 하나 만들어주면 셋팅 가능!
-* 내용은 body에 기록
+
+1. create new project로 만들되 name은 공백없이 영어로 작성
+2. '액세스 허용'선택
+3. new -> HTML file -> name설정
+4. 서체수정 -> file -> setting -> color & fonts -> save as 하나 만들어주면 셋팅 가능!
+
+내용은 body에 기록
 
 ---
-* 1. javascript의 언어적 특성 -> 다른 언어와 비교해서!
-* 2. 간단한 화면 제어!
+
+1. javascript의 언어적 특성 -> 다른 언어와 비교해서!
+2. 간단한 화면 제어!
 
 * javascript Event + HTML5 Drag and Drop
