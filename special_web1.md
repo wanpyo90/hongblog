@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /web_1/
+permalink: //web_1/
 title: Web강의
 description: "web special lecture"
 tags: [Jekyll, theme, install, setup]
