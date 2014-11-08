@@ -5,7 +5,7 @@ title: Web강의
 description: "web special lecture"
 tags: [Jekyll, theme, install, setup]
 image:
-  feature: abstract-12
+  feature: lecture_3_logo.jpg
 
 share: true
 ---
